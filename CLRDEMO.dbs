@@ -1,0 +1,207 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "Eternity_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	CLRDEMO
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "E:\\ABSOLUTE POWER\\Doom\\IWADS\\DOOM2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource1
+			{
+				type = 2;
+				location = "E:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\RES-OTEX-EXTRA\\OTEX_EXTRA.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource2
+			{
+				type = 0;
+				location = "E:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\RES-Big-Colormap-Pack-for-Eternity-Engine\\vplusclr.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource3
+			{
+				type = 2;
+				location = "E:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\WAD-Eternity-Engine-Colormaps-Tech-Demo\\CLRDEMO.pke";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource4
+			{
+				type = 2;
+				location = "E:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\RES-PSXTex\\PSX_TEX.pke";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+		}
+		defaultfloortexture = "0CONCF01";
+		defaultceiltexture = "PORTAL";
+		defaulttoptexture = "OSPRTC15";
+		defaultwalltexture = "OSPRTC15";
+		defaultbottomtexture = "OSPRTC15";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = 201.8278f;
+		viewpositiony = -512.4345f;
+		viewscale = 1.124547f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 32;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		plugins
+		{
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+					
+					prefab1
+					{
+						name = "[Previous]";
+						numberofsectors = 3;
+						outervertexmultiplier = 1;
+						innervertexmultiplier = 1;
+						stairtype = 0;
+						sectordepth = 16;
+						spacing = 0;
+						frontside = true;
+						singlesectors = true;
+						distinctsectors = false;
+						singledirection = false;
+						distinctbaseheights = true;
+						flipping = 0;
+						numberofcontrolpoints = 1;
+						applyfloormod = true;
+						floormod = 0;
+						applyceilingmod = true;
+						ceilingmod = 0;
+						applyfloortexture = false;
+						floortexture = "";
+						applyceilingtexture = false;
+						ceilingtexture = "";
+						applyuppertexture = true;
+						uppertexture = "-";
+						upperunpegged = true;
+						applymiddletexture = false;
+						middletexture = "-";
+						applylowertexture = true;
+						lowertexture = "-";
+						lowerunpegged = true;
+					}
+				}
+			}
+		}
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				ypanningfloor = 1;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 32;
+				activetab = true;
+			}
+		}
+	}
+}
