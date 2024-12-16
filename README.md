@@ -1,6 +1,6 @@
 # Eternity Engine Colormap Tech Demo [1 Level, Eternity 4.03 UDMF, DOOM 2]
 
-# STATUS: 🏁WORK IN PROGRESS
+# STATUS: ⛔CANCELLED
 
 ## Resources in use:
 - CLRDEMO.pke (in this repo)
