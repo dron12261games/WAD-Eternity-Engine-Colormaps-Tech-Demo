@@ -14,7 +14,7 @@ maps
 			resource0
 			{
 				type = 0;
-				location = "E:\\ABSOLUTE POWER\\Doom\\IWADS\\DOOM2.WAD";
+				location = "S:\\ABSOLUTE POWER\\Doom\\IWADS\\DOOM2.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -24,7 +24,7 @@ maps
 			resource1
 			{
 				type = 2;
-				location = "E:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\RES-OTEX-EXTRA\\OTEX_EXTRA.pk3";
+				location = "S:\\ABSOLUTE POWER\\Doom\\Resources\\Textures\\OTEX_1.1.pk3";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -34,7 +34,7 @@ maps
 			resource2
 			{
 				type = 0;
-				location = "E:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\RES-Big-Colormap-Pack-for-Eternity-Engine\\vplusclr.wad";
+				location = "S:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\RES-Big-Colormap-Pack-for-Eternity-Engine\\EECLRMPS.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -44,7 +44,7 @@ maps
 			resource3
 			{
 				type = 2;
-				location = "E:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\WAD-Eternity-Engine-Colormaps-Tech-Demo\\CLRDEMO.pke";
+				location = "S:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\WAD-Eternity-Engine-Colormaps-Tech-Demo\\CLRDEMO.pke";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -54,7 +54,17 @@ maps
 			resource4
 			{
 				type = 2;
-				location = "E:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\RES-PSXTex\\PSX_TEX.pke";
+				location = "S:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\RES-PSXTex\\PSX_TEX.pke";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource5
+			{
+				type = 2;
+				location = "S:\\ABSOLUTE POWER\\Doom\\DRON12261 Projects\\RES-OTEX-EXTRA\\OTEX_EXTRA.pk3";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -78,9 +88,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 201.8278f;
-		viewpositiony = -512.4345f;
-		viewscale = 1.124547f;
+		viewpositionx = -2173.058f;
+		viewpositiony = -2283.142f;
+		viewscale = 0.5118551f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -91,7 +101,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 32;
+			gridsize = 64;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
